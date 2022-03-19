@@ -20,12 +20,12 @@ Here is the link to the dataset. https://www.kaggle.com/aungpyaeap/fish-market
 
 #### Deployment
 
-    The application is deployed on Heroku.
-    The Procfile in the repo, facilitates the deployment process.
+The application is deployed on Heroku.
+The Procfile in the repo, facilitates the deployment process.
 
-    The deployed application can be accessed here, 
+The deployed application can be accessed here, 
 
-    https://fish-species-predict-demo.herokuapp.com/
+https://fish-species-predict-demo.herokuapp.com/
 
 #### Important tools used
 
@@ -38,9 +38,9 @@ Here is the link to the dataset. https://www.kaggle.com/aungpyaeap/fish-market
 
 #### Model training and loading
 
-    The repo contains a jupyter notebook -> "model_training.ipynb".
-    This notebook can be used to train the model.
-    The dataset is also present in the repo -> "fish_dataset.csv".
-    A model is already trained and used currently for prediction -> "fish_classifier.pkl".
-    The model was trained using "RandomForestClassifier" and obtained an accuracy score of 80 %.
+The repo contains a jupyter notebook -> "model_training.ipynb".
+This notebook can be used to train the model.
+The dataset is also present in the repo -> "fish_dataset.csv".
+A model is already trained and used currently for prediction -> "fish_classifier.pkl".
+The model was trained using "RandomForestClassifier" and obtained an accuracy score of 80 %.
 
