@@ -27,7 +27,7 @@ The deployed application can be accessed here,
 
 https://fish-species-predict-demo.herokuapp.com/
 
-#### Important tools used
+#### Main tools used
 
     flask
     scikit-learn
@@ -39,8 +39,12 @@ https://fish-species-predict-demo.herokuapp.com/
 #### Model training and loading
 
 The repo contains a jupyter notebook -> "model_training.ipynb".
+
 This notebook can be used to train the model.
+
 The dataset is also present in the repo -> "fish_dataset.csv".
+
 A model is already trained and used currently for prediction -> "fish_classifier.pkl".
+
 The model was trained using "RandomForestClassifier" and obtained an accuracy score of 80 %.
 
