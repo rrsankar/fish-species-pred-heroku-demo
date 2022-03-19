@@ -6,28 +6,29 @@ The dataset contains 7 species of fish and the features "weight", "length1", "le
 
 Here is the link to the dataset. https://www.kaggle.com/aungpyaeap/fish-market
 
-#### Installation:
+### Installation:
 
     1. Clone/download the repo to your local.
     2. Create a virtual environment (this application was built and test on Python 3.6)
     3. Run the requirements.txt (pip install -r requirements.txt)
 
-#### Running the application:
+### Running the application:
  
     1. After the environment is setup, Run main.py.
     2. A flask server will be up and running and a link to the webpage will be outputted. Go to the link.
     3. Insert necessary values for the fields and click Predict.
 
-#### Deployment
+### Deployment
 
 The application is deployed on Heroku.
+
 The Procfile in the repo, facilitates the deployment process.
 
 The deployed application can be accessed here, 
 
 https://fish-species-predict-demo.herokuapp.com/
 
-#### Main tools used
+### Main tools used
 
     flask
     scikit-learn
@@ -36,7 +37,7 @@ https://fish-species-predict-demo.herokuapp.com/
 
     Please check the requirements.txt file to see all the tools and their versions.
 
-#### Model training and loading
+### Model training and loading
 
 The repo contains a jupyter notebook -> "model_training.ipynb".
 
