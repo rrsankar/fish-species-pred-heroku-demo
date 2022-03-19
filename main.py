@@ -23,7 +23,6 @@ with open('fish_classifier.pkl', 'rb') as f:
 def home():
     """
     For rendering webpage.
-    :return:
     """
     return render_template('index.html')
 
