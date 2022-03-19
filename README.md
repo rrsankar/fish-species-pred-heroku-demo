@@ -30,12 +30,10 @@ https://fish-species-predict-demo.herokuapp.com/
 
 ### Main tools used:
 
-    flask
-    scikit-learn
-    numpy
-    pandas
+* [flask](https://flask.palletsprojects.com/en/1.1.x/) - Web framework
+* [scikit-learn](https://scikit-learn.org/0.22/getting_started.html) - Machine Learning library
 
-    Please check the requirements.txt file to see all the tools and their versions.
+Please check the requirements.txt file to see all the tools and their versions.
 
 ### ML Model:
 
