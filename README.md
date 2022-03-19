@@ -18,7 +18,7 @@ Here is the link to the dataset. https://www.kaggle.com/aungpyaeap/fish-market
     2. A flask server will be up and running and a link to the webpage will be outputted. Go to the link.
     3. Insert necessary values for the fields and click Predict.
 
-### Deployment
+### Deployment:
 
 The application is deployed on Heroku.
 
@@ -28,7 +28,7 @@ The deployed application can be accessed here,
 
 https://fish-species-predict-demo.herokuapp.com/
 
-### Main tools used
+### Main tools used:
 
     flask
     scikit-learn
@@ -37,7 +37,7 @@ https://fish-species-predict-demo.herokuapp.com/
 
     Please check the requirements.txt file to see all the tools and their versions.
 
-### Model training and loading
+### ML Model:
 
 The repo contains a jupyter notebook -> "model_training.ipynb".
 
@@ -48,4 +48,6 @@ The dataset is also present in the repo -> "fish_dataset.csv".
 A model is already trained and used currently for prediction -> "fish_classifier.pkl".
 
 The model was trained using "RandomForestClassifier" and obtained an accuracy score of 80 %.
+
+The model is loaded when the flask server goes up.
 
